@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url(".\\fonts\\IRANSansWeb_Light.eot");
+    src: local("IRANSansWeb_Light"), url("./fonts/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/IRANSansWeb_Light.woff2") format("woff2"),
+    url("./fonts/IRANSansWeb_Light.woff") format("woff"),
+    url("./fonts/IRANSansWeb_Light.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'IRANSansBold';
+    src: url("./fonts/IRANSansWeb_Bold.eot");
+    src: local("IRANSansWeb_Bold"), url("./fonts/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/IRANSansWeb_Bold.woff2") format("woff2"),
+    url("./fonts/IRANSansWeb_Bold.woff") format("woff"),
+    url("./fonts/IRANSansWeb_Bold.ttf") format("truetype")
+}
+
+.custom_font {
+    font-family: IRANSans, Tahoma, sans-serif;
+}
+
+.custom_bold {
+    font-family: IRANSansBold, Tahoma, sans-serif;
+}
+
+.fab {
+    background-color: #282e85;
+}
+
+.fab:hover {
+    background-color: #313ef8;
+}
+
+P {
+	font-family: IRANSans, Tahoma, sans-serif;
+    direction: rtl;
+}
+
+span {
+	font-family: IRANSans, Tahoma, sans-serif;
+    direction: rtl;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
